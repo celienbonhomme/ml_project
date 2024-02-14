@@ -2,7 +2,20 @@
 
 ## Installation
 
-## Git Strategy
+## Git shortcuts
+To simplify common Git commands, you can set up shortcuts using aliases in your Git configuration.
+
+1. Open your terminal.
+
+2. Run the following commands to set up the aliases:
+
+   ```bash
+   git config --global alias.st status
+   git config --global alias.co checkout
+   git config --global alias.br branch
+   ```
+
+## Git strategy
 
 #### Using the `dev` Branch
 
@@ -25,7 +38,6 @@ When starting work on a new feature, follow these steps to create a new branch:
 
 3. **Push Your Branch:** Once your feature is complete and tested locally, push your branch to the remote repository using `git push origin feature/new-feature-name`.
 
-4. **Open a Pull Request:** Finally, open a pull request (PR) to merge your feature branch into the master branch. Be sure to provide a clear description of the changes in your PR.
 
 
 ## Commit Message Conventions
@@ -69,5 +81,4 @@ Each commit should start with a prefix indicating the nature of the change, foll
 #### Undoing Changes
 
 - **git reset <file>:** Unstage a file.
-- **git reset --hard:** Discard all changes in the working directory.
 - **git revert <commit>:** Create a new commit that undoes a previous commit.
