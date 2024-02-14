@@ -1,6 +1,11 @@
 # ML project
 
-## Installation
+## Virtual Environment
+Use the following command in your terminal to activate the Conda environment:
+
+```bash
+conda activate ml_venv
+```
 
 ## Git shortcuts
 To simplify common Git commands, you can set up shortcuts using aliases in your Git configuration.
