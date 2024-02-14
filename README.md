@@ -7,6 +7,18 @@ Use the following command in your terminal to activate the Conda environment:
 conda activate ml_venv
 ```
 
+## Trello Board
+[Trello](https://trello.com/b/dKmqPYaQ/mlproject) is a tool for organizing and managing tasks related to our machine learning project. Here's how we can use it effectively:
+
+#### Lists and Cards
+
+- **To Do:** Contains tasks that need to be done.
+- **In Progress:** Contains tasks that are currently being worked on.
+- **Testing:** Contains tasks that are ready for testing.
+- **Done:** Contains tasks that have been completed.
+
+Each task is represented by a card, which can be moved between lists as it progresses through the workflow.
+
 ## Git shortcuts
 To simplify common Git commands, you can set up shortcuts using aliases in your Git configuration.
 
