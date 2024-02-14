@@ -1,1 +1,73 @@
-# ml_project (README)
+# ML project
+
+## Installation
+
+## Git Strategy
+
+#### Using the `dev` Branch
+
+In this project, we use a `dev` branch as an intermediary branch between the `master` branch and feature branches. The `dev` branch serves as a staging area for features before they are merged into the master branch. Here's how we use the `dev` branch:
+
+1. **Merging into `dev`:** Once the feature is complete and tested, merge it into the `dev` branch using `git checkout dev` followed by `git merge feature/new-feature`.
+
+2. **Testing:** Test the merged features in the `dev` branch to ensure they work correctly together.
+
+3. **Merging into `master`:** When the `dev` branch contains a set of features ready for release, merge `dev` into `master` using `git checkout master` followed by `git merge dev`.
+
+
+#### Creating a New Feature Branch
+
+When starting work on a new feature, follow these steps to create a new branch:
+
+1. **Create the Branch:** Use the command `git checkout -b feature/new-feature-name` to create a new branch for your feature
+
+2. **Work on Your Feature:** Make your changes and commits on this branch. Remember to commit often and write clear, descriptive commit messages.
+
+3. **Push Your Branch:** Once your feature is complete and tested locally, push your branch to the remote repository using `git push origin feature/new-feature-name`.
+
+4. **Open a Pull Request:** Finally, open a pull request (PR) to merge your feature branch into the master branch. Be sure to provide a clear description of the changes in your PR.
+
+
+## Commit Message Conventions
+Each commit should start with a prefix indicating the nature of the change, followed by a concise description of the change.
+
+- **feat:** for adding new features to the project.
+- **fix:** for bug fixes.
+- **docs:** for documentation changes.
+- **style:** for changes that do not affect the meaning of the code (formatting, spaces, etc.).
+- **refactor:** for code changes that neither fix a bug nor add a feature.
+- **test:** for adding or modifying tests.
+- **chore:** for maintenance tasks, dependency updates, etc.
+
+## Git Commands
+
+#### Local Changes
+
+- **git status:** Check the status of your working directory and staging area.
+- **git add <file>:** Add a file to the staging area.
+- **git commit -m "Message":** Commit changes with a descriptive message.
+- **git diff:** Show changes between commits, the staging area, and the working directory.
+
+#### Branching
+
+- **git branch:** List all branches in the repository.
+- **git branch <branch-name>:** Create a new branch.
+- **git checkout <branch-name>:** Switch to a branch.
+- **git merge <branch>:** Merge a branch into the current branch.
+
+#### Remote Repositories
+
+- **git push <remote> <branch>:** Push local changes to a remote repository.
+- **git pull <remote> <branch>:** Fetch and merge changes from a remote repository.
+
+#### History
+
+- **git log:** Display the commit history.
+- **git log --oneline:** Display the commit history in one line per commit.
+- **git checkout <commit>:** Check out a specific commit.
+
+#### Undoing Changes
+
+- **git reset <file>:** Unstage a file.
+- **git reset --hard:** Discard all changes in the working directory.
+- **git revert <commit>:** Create a new commit that undoes a previous commit.
