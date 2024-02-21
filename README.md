@@ -1,17 +1,10 @@
 # ML project
 
-## 
-
-```bash
-#!/bin/bash
-export MY_GIT_REPO="/home/celien/Documents/ml_project"
-```
-
 ## Virtual Environment
 Use the following command in your terminal to activate the Conda environment:
 
 ```bash
-conda activate ml_venv
+conda activate name_of_the_environment
 ```
 
 ## Trello Board
