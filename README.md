@@ -38,7 +38,7 @@ To simplify common Git commands, you can set up shortcuts using aliases in your 
 
 In this project, we use a `dev` branch as an intermediary branch between the `master` branch and feature branches. The `dev` branch serves as a staging area for features before they are merged into the master branch. Here's how we use the `dev` branch:
 
-1. **Merging into `dev`:** Once the feature is complete and tested, merge it into the `dev` branch using `git checkout dev` followed by `git merge feature/new-feature`.
+1. **Merging into `dev`:** Once the feature is complete and tested, merge it into the `dev` branch using `git checkout dev` followed by `git merge feat/new-feature`.
 
 2. **Testing:** Test the merged features in the `dev` branch to ensure they work correctly together.
 
@@ -49,11 +49,11 @@ In this project, we use a `dev` branch as an intermediary branch between the `ma
 
 When starting work on a new feature, follow these steps to create a new branch:
 
-1. **Create the Branch:** Use the command `git checkout -b feature/new-feature-name` to create a new branch for your feature
+1. **Create the Branch:** Use the command `git checkout -b feat/new-feature-name` to create a new branch for your feature
 
 2. **Work on Your Feature:** Make your changes and commits on this branch. Remember to commit often and write clear, descriptive commit messages.
 
-3. **Push Your Branch:** Once your feature is complete and tested locally, push your branch to the remote repository using `git push origin feature/new-feature-name`.
+3. **Push Your Branch:** Once your feature is complete and tested locally, push your branch to the remote repository using `git push origin feat/new-feature-name`.
 
 
 
