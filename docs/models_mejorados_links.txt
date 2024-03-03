@@ -1,0 +1,4 @@
+model for classificating news online:
+    -   https://journals.iium.edu.my/ejournal/index.php/iiumej/article/view/1662 = https://journals.iium.edu.my/ejournal/index.php/iiumej/article/view/1662/827
+    -   https://arxiv.org/pdf/2312.11805.pdf
+    -   https://arxiv.org/abs/2005.13012?fbclid=IwAR1I92FuHsAi67OqFbzVldiRu4AAb-lD3UcMEsX6llUlLYnR_ynx-EI91iM
