@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Load data &#8212; My sample book</title>
+    <title>EDA NLP Machine Learning Project &#8212; My sample book</title>
   
   
   
@@ -68,7 +68,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'EDA';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="index.html" />
+    <link rel="next" title="Revisión de Literatura" href="papers.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -181,11 +181,14 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Load data
+                    EDA NLP Machine Learning Project
                 </a>
             </li>
         </ul>
-        
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="papers.html">Revisión de Literatura</a></li>
+</ul>
+
     </div>
 </nav></div>
     </div>
@@ -369,7 +372,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Load data</h1>
+    <h1>EDA NLP Machine Learning Project</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -379,11 +382,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Load data</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">Preprocessing</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#reducing-number-of-columns-pca">Reducing number of columns - PCA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#load-data">Load data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">Preprocessing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reducing-number-of-columns-pca">Reducing number of columns - PCA</a></li>
 </ul>
-
             </nav>
         </div>
     </div>
@@ -394,8 +396,10 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="load-data">
-<h1>Load data<a class="headerlink" href="#load-data" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="eda-nlp-machine-learning-project">
+<h1>EDA NLP Machine Learning Project<a class="headerlink" href="#eda-nlp-machine-learning-project" title="Link to this heading">#</a></h1>
+<section id="load-data">
+<h2>Load data<a class="headerlink" href="#load-data" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -403,7 +407,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/x5/spm_6r5944dfgx3qj8my0m440000gn/T/ipykernel_8805/4080736814.py:1: DeprecationWarning: 
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/x5/spm_6r5944dfgx3qj8my0m440000gn/T/ipykernel_9712/4080736814.py:1: DeprecationWarning: 
 Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
 (to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
 but was not found to be installed on your system.
@@ -459,7 +463,7 @@ memory usage: 297.5+ KB
 <p>To start working with NLP first we need to process the data carefully, because analyzing text could be very hard. The first thing to do in fact would be to elaborate the column text and make it readable by the machine learning models, to do that we will use a pre-trained model called e5-small-v2, thanks to this the data will embeded into vectors.</p>
 </section>
 <section id="preprocessing">
-<h1>Preprocessing<a class="headerlink" href="#preprocessing" title="Link to this heading">#</a></h1>
+<h2>Preprocessing<a class="headerlink" href="#preprocessing" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">warnings</span> <span class="kn">import</span> <span class="n">filterwarnings</span>
@@ -485,7 +489,7 @@ memory usage: 297.5+ KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "01bcb0ffbd7d45349b8acd7744433df6"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "bbe1b326b63d48e1b53944ecf05205cf"}</script></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1485,7 +1489,7 @@ Name: count, dtype: int64
 <p>We have a good balance of target values, this is really helpful for training the models</p>
 </section>
 <section id="reducing-number-of-columns-pca">
-<h1>Reducing number of columns - PCA<a class="headerlink" href="#reducing-number-of-columns-pca" title="Link to this heading">#</a></h1>
+<h2>Reducing number of columns - PCA<a class="headerlink" href="#reducing-number-of-columns-pca" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;../data/data_preprocessed.csv&#39;</span><span class="p">)</span>
@@ -1692,13 +1696,23 @@ First we find the best number of components by utilyzing a gridsearchCv that uti
 <span class="g g-Whitespace">    </span><span class="mi">502</span> <span class="c1"># project M to the (k + p) dimensional space using the basis vectors</span>
 <span class="g g-Whitespace">    </span><span class="mi">503</span> <span class="n">B</span> <span class="o">=</span> <span class="n">Q</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">M</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:312,</span> in <span class="ni">randomized_range_finder</span><span class="nt">(A, size, n_iter, power_iteration_normalizer, random_state)</span>
+<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:311,</span> in <span class="ni">randomized_range_finder</span><span class="nt">(A, size, n_iter, power_iteration_normalizer, random_state)</span>
+<span class="g g-Whitespace">    </span><span class="mi">308</span> <span class="c1"># Perform power iterations with Q to further &#39;imprint&#39; the top</span>
+<span class="g g-Whitespace">    </span><span class="mi">309</span> <span class="c1"># singular vectors of A in Q</span>
 <span class="g g-Whitespace">    </span><span class="mi">310</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_iter</span><span class="p">):</span>
-<span class="g g-Whitespace">    </span><span class="mi">311</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
-<span class="ne">--&gt; </span><span class="mi">312</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">311</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">312</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">314</span> <span class="c1"># Sample the range of A using by linear projection of Q</span>
 <span class="g g-Whitespace">    </span><span class="mi">315</span> <span class="c1"># Extract an orthonormal basis</span>
-<span class="g g-Whitespace">    </span><span class="mi">316</span> <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">qr_normalizer</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
+
+<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/scipy/linalg/_decomp_lu.py:344,</span> in <span class="ni">lu</span><span class="nt">(a, permute_l, overwrite_a, check_finite, p_indices)</span>
+<span class="g g-Whitespace">    </span><span class="mi">342</span>     <span class="n">p</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int32</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">343</span>     <span class="n">u</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">k</span><span class="p">,</span> <span class="n">k</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">a1</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">344</span>     <span class="n">lu_dispatcher</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">permute_l</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">345</span>     <span class="n">P</span><span class="p">,</span> <span class="n">L</span><span class="p">,</span> <span class="n">U</span> <span class="o">=</span> <span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">u</span><span class="p">)</span> <span class="k">if</span> <span class="n">m</span> <span class="o">&gt;</span> <span class="n">n</span> <span class="k">else</span> <span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">a1</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">347</span> <span class="k">else</span><span class="p">:</span>  <span class="c1"># Stacked array</span>
+<span class="g g-Whitespace">    </span><span class="mi">348</span> 
+<span class="g g-Whitespace">    </span><span class="mi">349</span>     <span class="c1"># Prepare the contiguous data holders</span>
 
 <span class="ne">KeyboardInterrupt</span>: 
 </pre></div>
@@ -2092,6 +2106,7 @@ Once the model will be trained and they will be ready to receive queries we will
 <li><p>transform it using the pretrained pca model</p></li>
 <li><p>finally give it to the model that tries to guess if it is a disaster or not</p></li>
 </ol>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -2127,11 +2142,11 @@ Once the model will be trained and they will be ready to receive queries we will
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="index.html"
+       href="papers.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title">Revisión de Literatura</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -2151,11 +2166,10 @@ Once the model will be trained and they will be ready to receive queries we will
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Load data</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">Preprocessing</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#reducing-number-of-columns-pca">Reducing number of columns - PCA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#load-data">Load data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#preprocessing">Preprocessing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reducing-number-of-columns-pca">Reducing number of columns - PCA</a></li>
 </ul>
-
   </nav></div>
 
 </div></div>
