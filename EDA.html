@@ -68,7 +68,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'EDA';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Welcome to your Jupyter Book" href="intro.html" />
+    <link rel="next" title="&lt;no title&gt;" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -130,6 +130,8 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
+        
+      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -146,7 +148,7 @@ const thebe_selector_output = ".output, .cell_output"
 
   
 
-<a class="navbar-brand logo" href="intro.html">
+<a class="navbar-brand logo" href="#">
   
   
   
@@ -177,18 +179,13 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1">
-                <a class="reference internal" href="intro.html">
-                    Welcome to your Jupyter Book
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Load data
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Load data</a></li>
-
-
-</ul>
-
+        
     </div>
 </nav></div>
     </div>
@@ -406,7 +403,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/x5/spm_6r5944dfgx3qj8my0m440000gn/T/ipykernel_8540/4080736814.py:1: DeprecationWarning: 
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/x5/spm_6r5944dfgx3qj8my0m440000gn/T/ipykernel_8805/4080736814.py:1: DeprecationWarning: 
 Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
 (to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
 but was not found to be installed on your system.
@@ -488,7 +485,7 @@ memory usage: 297.5+ KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "58346d71909844559691573fc2342544"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "01bcb0ffbd7d45349b8acd7744433df6"}</script></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1695,23 +1692,13 @@ First we find the best number of components by utilyzing a gridsearchCv that uti
 <span class="g g-Whitespace">    </span><span class="mi">502</span> <span class="c1"># project M to the (k + p) dimensional space using the basis vectors</span>
 <span class="g g-Whitespace">    </span><span class="mi">503</span> <span class="n">B</span> <span class="o">=</span> <span class="n">Q</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">M</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:311,</span> in <span class="ni">randomized_range_finder</span><span class="nt">(A, size, n_iter, power_iteration_normalizer, random_state)</span>
-<span class="g g-Whitespace">    </span><span class="mi">308</span> <span class="c1"># Perform power iterations with Q to further &#39;imprint&#39; the top</span>
-<span class="g g-Whitespace">    </span><span class="mi">309</span> <span class="c1"># singular vectors of A in Q</span>
+<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:312,</span> in <span class="ni">randomized_range_finder</span><span class="nt">(A, size, n_iter, power_iteration_normalizer, random_state)</span>
 <span class="g g-Whitespace">    </span><span class="mi">310</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_iter</span><span class="p">):</span>
-<span class="ne">--&gt; </span><span class="mi">311</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">312</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">311</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">312</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">314</span> <span class="c1"># Sample the range of A using by linear projection of Q</span>
 <span class="g g-Whitespace">    </span><span class="mi">315</span> <span class="c1"># Extract an orthonormal basis</span>
-
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/scipy/linalg/_decomp_lu.py:344,</span> in <span class="ni">lu</span><span class="nt">(a, permute_l, overwrite_a, check_finite, p_indices)</span>
-<span class="g g-Whitespace">    </span><span class="mi">342</span>     <span class="n">p</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int32</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">343</span>     <span class="n">u</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">k</span><span class="p">,</span> <span class="n">k</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">a1</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
-<span class="ne">--&gt; </span><span class="mi">344</span>     <span class="n">lu_dispatcher</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">permute_l</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">345</span>     <span class="n">P</span><span class="p">,</span> <span class="n">L</span><span class="p">,</span> <span class="n">U</span> <span class="o">=</span> <span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">u</span><span class="p">)</span> <span class="k">if</span> <span class="n">m</span> <span class="o">&gt;</span> <span class="n">n</span> <span class="k">else</span> <span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">a1</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">347</span> <span class="k">else</span><span class="p">:</span>  <span class="c1"># Stacked array</span>
-<span class="g g-Whitespace">    </span><span class="mi">348</span> 
-<span class="g g-Whitespace">    </span><span class="mi">349</span>     <span class="c1"># Prepare the contiguous data holders</span>
+<span class="g g-Whitespace">    </span><span class="mi">316</span> <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">qr_normalizer</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
 
 <span class="ne">KeyboardInterrupt</span>: 
 </pre></div>
@@ -2105,6 +2092,8 @@ Once the model will be trained and they will be ready to receive queries we will
 <li><p>transform it using the pretrained pca model</p></li>
 <li><p>finally give it to the model that tries to guess if it is a disaster or not</p></li>
 </ol>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -2137,14 +2126,14 @@ Once the model will be trained and they will be ready to receive queries we will
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="intro.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
+    <a class="right-next"
+       href="index.html"
+       title="next page">
       <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Welcome to your Jupyter Book</p>
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
       </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
