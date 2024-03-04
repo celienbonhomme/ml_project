@@ -53,18 +53,10 @@
     <script src="_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js?v=36754332"></script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
-    <script async="async" src="_static/sphinx-thebe.js?v=afe5de03"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
-const thebe_selector = ".thebe,.cell"
-const thebe_selector_input = "pre"
-const thebe_selector_output = ".output, .cell_output"
-</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'EDA';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -407,7 +399,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/var/folders/x5/spm_6r5944dfgx3qj8my0m440000gn/T/ipykernel_9712/4080736814.py:1: DeprecationWarning: 
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_105616/4080736814.py:1: DeprecationWarning: 
 Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
 (to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
 but was not found to be installed on your system.
@@ -489,7 +481,7 @@ memory usage: 297.5+ KB
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "bbe1b326b63d48e1b53944ecf05205cf"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "26effca7adde47d79c0545acca7186b7"}</script></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -580,7 +572,7 @@ memory usage: 297.5+ KB
       <td>-0.091739</td>
       <td>-0.006207</td>
       <td>-0.065880</td>
-      <td>0.001196</td>
+      <td>0.001195</td>
       <td>0.028524</td>
       <td>0.041490</td>
       <td>0.022493</td>
@@ -600,7 +592,7 @@ memory usage: 297.5+ KB
       <td>0.003969</td>
       <td>0.033272</td>
       <td>...</td>
-      <td>-0.004133</td>
+      <td>-0.004134</td>
       <td>-0.068609</td>
       <td>-0.015161</td>
       <td>-0.026652</td>
@@ -1209,7 +1201,7 @@ Length: 608, dtype: float64
       <td>1.000000</td>
       <td>0.00000</td>
       <td>-0.178846</td>
-      <td>-0.050050</td>
+      <td>-0.050049</td>
       <td>-0.060033</td>
       <td>-0.076413</td>
       <td>-0.085791</td>
@@ -1260,7 +1252,7 @@ Length: 608, dtype: float64
       <td>0.031301</td>
       <td>0.026964</td>
       <td>0.005667</td>
-      <td>-0.012383</td>
+      <td>-0.012382</td>
       <td>0.024830</td>
       <td>0.065487</td>
       <td>-0.053774</td>
@@ -1283,7 +1275,7 @@ Length: 608, dtype: float64
       <td>-0.059652</td>
       <td>0.045920</td>
       <td>0.042831</td>
-      <td>0.020483</td>
+      <td>0.020484</td>
       <td>0.001841</td>
       <td>0.039763</td>
       <td>0.083444</td>
@@ -1483,7 +1475,7 @@ Name: count, dtype: int64
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;Axes: xlabel=&#39;target&#39;, ylabel=&#39;count&#39;&gt;
 </pre></div>
 </div>
-<img alt="_images/bcb081353001449c21c4a3e1c14c9d18ac713e46ad9f3cecac8b155b9ee2819e.png" src="_images/bcb081353001449c21c4a3e1c14c9d18ac713e46ad9f3cecac8b155b9ee2819e.png" />
+<img alt="_images/16fed726350e7cd2999138cc83f7269c4b0adde8ac6b0eaf12b49ea388054339.png" src="_images/16fed726350e7cd2999138cc83f7269c4b0adde8ac6b0eaf12b49ea388054339.png" />
 </div>
 </div>
 <p>We have a good balance of target values, this is really helpful for training the models</p>
@@ -1539,16 +1531,16 @@ First we find the best number of components by utilyzing a gridsearchCv that uti
 <span class="g g-Whitespace">     </span><span class="mi">14</span> <span class="c1"># Get the best parameter</span>
 <span class="g g-Whitespace">     </span><span class="mi">15</span> <span class="n">best_n_components</span> <span class="o">=</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_params_</span><span class="p">[</span><span class="s1">&#39;n_components&#39;</span><span class="p">]</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/base.py:1351,</span> in <span class="ni">_fit_context.&lt;locals&gt;.decorator.&lt;locals&gt;.wrapper</span><span class="nt">(estimator, *args, **kwargs)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1344</span>     <span class="n">estimator</span><span class="o">.</span><span class="n">_validate_params</span><span class="p">()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1346</span> <span class="k">with</span> <span class="n">config_context</span><span class="p">(</span>
-<span class="g g-Whitespace">   </span><span class="mi">1347</span>     <span class="n">skip_parameter_validation</span><span class="o">=</span><span class="p">(</span>
-<span class="g g-Whitespace">   </span><span class="mi">1348</span>         <span class="n">prefer_skip_nested_validation</span> <span class="ow">or</span> <span class="n">global_skip_validation</span>
-<span class="g g-Whitespace">   </span><span class="mi">1349</span>     <span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1350</span> <span class="p">):</span>
-<span class="ne">-&gt; </span><span class="mi">1351</span>     <span class="k">return</span> <span class="n">fit_method</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/base.py:1474,</span> in <span class="ni">_fit_context.&lt;locals&gt;.decorator.&lt;locals&gt;.wrapper</span><span class="nt">(estimator, *args, **kwargs)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1467</span>     <span class="n">estimator</span><span class="o">.</span><span class="n">_validate_params</span><span class="p">()</span>
+<span class="g g-Whitespace">   </span><span class="mi">1469</span> <span class="k">with</span> <span class="n">config_context</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1470</span>     <span class="n">skip_parameter_validation</span><span class="o">=</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1471</span>         <span class="n">prefer_skip_nested_validation</span> <span class="ow">or</span> <span class="n">global_skip_validation</span>
+<span class="g g-Whitespace">   </span><span class="mi">1472</span>     <span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1473</span> <span class="p">):</span>
+<span class="ne">-&gt; </span><span class="mi">1474</span>     <span class="k">return</span> <span class="n">fit_method</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/model_selection/_search.py:970,</span> in <span class="ni">BaseSearchCV.fit</span><span class="nt">(self, X, y, **params)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/model_selection/_search.py:970,</span> in <span class="ni">BaseSearchCV.fit</span><span class="nt">(self, X, y, **params)</span>
 <span class="g g-Whitespace">    </span><span class="mi">964</span>     <span class="n">results</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_format_results</span><span class="p">(</span>
 <span class="g g-Whitespace">    </span><span class="mi">965</span>         <span class="n">all_candidate_params</span><span class="p">,</span> <span class="n">n_splits</span><span class="p">,</span> <span class="n">all_out</span><span class="p">,</span> <span class="n">all_more_results</span>
 <span class="g g-Whitespace">    </span><span class="mi">966</span>     <span class="p">)</span>
@@ -1558,12 +1550,12 @@ First we find the best number of components by utilyzing a gridsearchCv that uti
 <span class="g g-Whitespace">    </span><span class="mi">973</span> <span class="c1"># self.scoring the return type is only known after calling</span>
 <span class="g g-Whitespace">    </span><span class="mi">974</span> <span class="n">first_test_score</span> <span class="o">=</span> <span class="n">all_out</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;test_scores&quot;</span><span class="p">]</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1527,</span> in <span class="ni">GridSearchCV._run_search</span><span class="nt">(self, evaluate_candidates)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/model_selection/_search.py:1527,</span> in <span class="ni">GridSearchCV._run_search</span><span class="nt">(self, evaluate_candidates)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1525</span> <span class="k">def</span> <span class="nf">_run_search</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">evaluate_candidates</span><span class="p">):</span>
 <span class="g g-Whitespace">   </span><span class="mi">1526</span><span class="w">     </span><span class="sd">&quot;&quot;&quot;Search all candidates in param_grid&quot;&quot;&quot;</span>
 <span class="ne">-&gt; </span><span class="mi">1527</span>     <span class="n">evaluate_candidates</span><span class="p">(</span><span class="n">ParameterGrid</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">param_grid</span><span class="p">))</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/model_selection/_search.py:916,</span> in <span class="ni">BaseSearchCV.fit.&lt;locals&gt;.evaluate_candidates</span><span class="nt">(candidate_params, cv, more_results)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/model_selection/_search.py:916,</span> in <span class="ni">BaseSearchCV.fit.&lt;locals&gt;.evaluate_candidates</span><span class="nt">(candidate_params, cv, more_results)</span>
 <span class="g g-Whitespace">    </span><span class="mi">908</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">909</span>     <span class="nb">print</span><span class="p">(</span>
 <span class="g g-Whitespace">    </span><span class="mi">910</span>         <span class="s2">&quot;Fitting </span><span class="si">{0}</span><span class="s2"> folds for each of </span><span class="si">{1}</span><span class="s2"> candidates,&quot;</span>
@@ -1595,7 +1587,7 @@ First we find the best number of components by utilyzing a gridsearchCv that uti
 <span class="g g-Whitespace">    </span><span class="mi">938</span>         <span class="s2">&quot;Were there no candidates?&quot;</span>
 <span class="g g-Whitespace">    </span><span class="mi">939</span>     <span class="p">)</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/utils/parallel.py:67,</span> in <span class="ni">Parallel.__call__</span><span class="nt">(self, iterable)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/utils/parallel.py:67,</span> in <span class="ni">Parallel.__call__</span><span class="nt">(self, iterable)</span>
 <span class="g g-Whitespace">     </span><span class="mi">62</span> <span class="n">config</span> <span class="o">=</span> <span class="n">get_config</span><span class="p">()</span>
 <span class="g g-Whitespace">     </span><span class="mi">63</span> <span class="n">iterable_with_config</span> <span class="o">=</span> <span class="p">(</span>
 <span class="g g-Whitespace">     </span><span class="mi">64</span>     <span class="p">(</span><span class="n">_with_config</span><span class="p">(</span><span class="n">delayed_func</span><span class="p">,</span> <span class="n">config</span><span class="p">),</span> <span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>
@@ -1603,7 +1595,7 @@ First we find the best number of components by utilyzing a gridsearchCv that uti
 <span class="g g-Whitespace">     </span><span class="mi">66</span> <span class="p">)</span>
 <span class="ne">---&gt; </span><span class="mi">67</span> <span class="k">return</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__call__</span><span class="p">(</span><span class="n">iterable_with_config</span><span class="p">)</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/joblib/parallel.py:1863,</span> in <span class="ni">Parallel.__call__</span><span class="nt">(self, iterable)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/joblib/parallel.py:1863,</span> in <span class="ni">Parallel.__call__</span><span class="nt">(self, iterable)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1861</span>     <span class="n">output</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_sequential_output</span><span class="p">(</span><span class="n">iterable</span><span class="p">)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1862</span>     <span class="nb">next</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>
 <span class="ne">-&gt; </span><span class="mi">1863</span>     <span class="k">return</span> <span class="n">output</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">return_generator</span> <span class="k">else</span> <span class="nb">list</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>
@@ -1614,35 +1606,35 @@ First we find the best number of components by utilyzing a gridsearchCv that uti
 <span class="g g-Whitespace">   </span><span class="mi">1869</span> <span class="c1"># callback.</span>
 <span class="g g-Whitespace">   </span><span class="mi">1870</span> <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">_lock</span><span class="p">:</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/joblib/parallel.py:1792,</span> in <span class="ni">Parallel._get_sequential_output</span><span class="nt">(self, iterable)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/joblib/parallel.py:1792,</span> in <span class="ni">Parallel._get_sequential_output</span><span class="nt">(self, iterable)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1790</span> <span class="bp">self</span><span class="o">.</span><span class="n">n_dispatched_batches</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="g g-Whitespace">   </span><span class="mi">1791</span> <span class="bp">self</span><span class="o">.</span><span class="n">n_dispatched_tasks</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="ne">-&gt; </span><span class="mi">1792</span> <span class="n">res</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1793</span> <span class="bp">self</span><span class="o">.</span><span class="n">n_completed_tasks</span> <span class="o">+=</span> <span class="mi">1</span>
 <span class="g g-Whitespace">   </span><span class="mi">1794</span> <span class="bp">self</span><span class="o">.</span><span class="n">print_progress</span><span class="p">()</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/utils/parallel.py:129,</span> in <span class="ni">_FuncWrapper.__call__</span><span class="nt">(self, *args, **kwargs)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/utils/parallel.py:129,</span> in <span class="ni">_FuncWrapper.__call__</span><span class="nt">(self, *args, **kwargs)</span>
 <span class="g g-Whitespace">    </span><span class="mi">127</span>     <span class="n">config</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="g g-Whitespace">    </span><span class="mi">128</span> <span class="k">with</span> <span class="n">config_context</span><span class="p">(</span><span class="o">**</span><span class="n">config</span><span class="p">):</span>
 <span class="ne">--&gt; </span><span class="mi">129</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">function</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:888,</span> in <span class="ni">_fit_and_score</span><span class="nt">(estimator, X, y, scorer, train, test, verbose, parameters, fit_params, score_params, return_train_score, return_parameters, return_n_test_samples, return_times, return_estimator, split_progress, candidate_progress, error_score)</span>
-<span class="g g-Whitespace">    </span><span class="mi">886</span> <span class="k">try</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">887</span>     <span class="k">if</span> <span class="n">y_train</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">888</span>         <span class="n">estimator</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="o">**</span><span class="n">fit_params</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">889</span>     <span class="k">else</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">890</span>         <span class="n">estimator</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="o">**</span><span class="n">fit_params</span><span class="p">)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/model_selection/_validation.py:893,</span> in <span class="ni">_fit_and_score</span><span class="nt">(estimator, X, y, scorer, train, test, verbose, parameters, fit_params, score_params, return_train_score, return_parameters, return_n_test_samples, return_times, return_estimator, split_progress, candidate_progress, error_score)</span>
+<span class="g g-Whitespace">    </span><span class="mi">891</span> <span class="k">try</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">892</span>     <span class="k">if</span> <span class="n">y_train</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">893</span>         <span class="n">estimator</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="o">**</span><span class="n">fit_params</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">894</span>     <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">895</span>         <span class="n">estimator</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="o">**</span><span class="n">fit_params</span><span class="p">)</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/base.py:1351,</span> in <span class="ni">_fit_context.&lt;locals&gt;.decorator.&lt;locals&gt;.wrapper</span><span class="nt">(estimator, *args, **kwargs)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1344</span>     <span class="n">estimator</span><span class="o">.</span><span class="n">_validate_params</span><span class="p">()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1346</span> <span class="k">with</span> <span class="n">config_context</span><span class="p">(</span>
-<span class="g g-Whitespace">   </span><span class="mi">1347</span>     <span class="n">skip_parameter_validation</span><span class="o">=</span><span class="p">(</span>
-<span class="g g-Whitespace">   </span><span class="mi">1348</span>         <span class="n">prefer_skip_nested_validation</span> <span class="ow">or</span> <span class="n">global_skip_validation</span>
-<span class="g g-Whitespace">   </span><span class="mi">1349</span>     <span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1350</span> <span class="p">):</span>
-<span class="ne">-&gt; </span><span class="mi">1351</span>     <span class="k">return</span> <span class="n">fit_method</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/base.py:1474,</span> in <span class="ni">_fit_context.&lt;locals&gt;.decorator.&lt;locals&gt;.wrapper</span><span class="nt">(estimator, *args, **kwargs)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1467</span>     <span class="n">estimator</span><span class="o">.</span><span class="n">_validate_params</span><span class="p">()</span>
+<span class="g g-Whitespace">   </span><span class="mi">1469</span> <span class="k">with</span> <span class="n">config_context</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1470</span>     <span class="n">skip_parameter_validation</span><span class="o">=</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1471</span>         <span class="n">prefer_skip_nested_validation</span> <span class="ow">or</span> <span class="n">global_skip_validation</span>
+<span class="g g-Whitespace">   </span><span class="mi">1472</span>     <span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1473</span> <span class="p">):</span>
+<span class="ne">-&gt; </span><span class="mi">1474</span>     <span class="k">return</span> <span class="n">fit_method</span><span class="p">(</span><span class="n">estimator</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/decomposition/_pca.py:428,</span> in <span class="ni">PCA.fit</span><span class="nt">(self, X, y)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/decomposition/_pca.py:428,</span> in <span class="ni">PCA.fit</span><span class="nt">(self, X, y)</span>
 <span class="g g-Whitespace">    </span><span class="mi">410</span> <span class="nd">@_fit_context</span><span class="p">(</span><span class="n">prefer_skip_nested_validation</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">411</span> <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
 <span class="g g-Whitespace">    </span><span class="mi">412</span><span class="w">     </span><span class="sd">&quot;&quot;&quot;Fit the model with X.</span>
@@ -1654,12 +1646,12 @@ First we find the best number of components by utilyzing a gridsearchCv that uti
 <span class="ne">--&gt; </span><span class="mi">428</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_fit</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">429</span>     <span class="k">return</span> <span class="bp">self</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/decomposition/_pca.py:516,</span> in <span class="ni">PCA._fit</span><span class="nt">(self, X)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/decomposition/_pca.py:516,</span> in <span class="ni">PCA._fit</span><span class="nt">(self, X)</span>
 <span class="g g-Whitespace">    </span><span class="mi">514</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_fit_full</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">n_components</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">515</span> <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">_fit_svd_solver</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;arpack&quot;</span><span class="p">,</span> <span class="s2">&quot;randomized&quot;</span><span class="p">]:</span>
 <span class="ne">--&gt; </span><span class="mi">516</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_fit_truncated</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">n_components</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_fit_svd_solver</span><span class="p">)</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/decomposition/_pca.py:656,</span> in <span class="ni">PCA._fit_truncated</span><span class="nt">(self, X, n_components, svd_solver)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/decomposition/_pca.py:656,</span> in <span class="ni">PCA._fit_truncated</span><span class="nt">(self, X, n_components, svd_solver)</span>
 <span class="g g-Whitespace">    </span><span class="mi">652</span>     <span class="n">U</span><span class="p">,</span> <span class="n">Vt</span> <span class="o">=</span> <span class="n">svd_flip</span><span class="p">(</span><span class="n">U</span><span class="p">[:,</span> <span class="p">::</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">Vt</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
 <span class="g g-Whitespace">    </span><span class="mi">654</span> <span class="k">elif</span> <span class="n">svd_solver</span> <span class="o">==</span> <span class="s2">&quot;randomized&quot;</span><span class="p">:</span>
 <span class="g g-Whitespace">    </span><span class="mi">655</span>     <span class="c1"># sign flipping is done inside</span>
@@ -1675,44 +1667,51 @@ First we find the best number of components by utilyzing a gridsearchCv that uti
 <span class="g g-Whitespace">    </span><span class="mi">666</span> <span class="bp">self</span><span class="o">.</span><span class="n">n_samples_</span> <span class="o">=</span> <span class="n">n_samples</span>
 <span class="g g-Whitespace">    </span><span class="mi">667</span> <span class="bp">self</span><span class="o">.</span><span class="n">components_</span> <span class="o">=</span> <span class="n">Vt</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/utils/_param_validation.py:186,</span> in <span class="ni">validate_params.&lt;locals&gt;.decorator.&lt;locals&gt;.wrapper</span><span class="nt">(*args, **kwargs)</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/utils/_param_validation.py:186,</span> in <span class="ni">validate_params.&lt;locals&gt;.decorator.&lt;locals&gt;.wrapper</span><span class="nt">(*args, **kwargs)</span>
 <span class="g g-Whitespace">    </span><span class="mi">184</span> <span class="n">global_skip_validation</span> <span class="o">=</span> <span class="n">get_config</span><span class="p">()[</span><span class="s2">&quot;skip_parameter_validation&quot;</span><span class="p">]</span>
 <span class="g g-Whitespace">    </span><span class="mi">185</span> <span class="k">if</span> <span class="n">global_skip_validation</span><span class="p">:</span>
 <span class="ne">--&gt; </span><span class="mi">186</span>     <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">188</span> <span class="n">func_sig</span> <span class="o">=</span> <span class="n">signature</span><span class="p">(</span><span class="n">func</span><span class="p">)</span>
 <span class="g g-Whitespace">    </span><span class="mi">190</span> <span class="c1"># Map *args/**kwargs to the function signature</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:494,</span> in <span class="ni">randomized_svd</span><span class="nt">(M, n_components, n_oversamples, n_iter, power_iteration_normalizer, transpose, flip_sign, random_state, svd_lapack_driver)</span>
-<span class="g g-Whitespace">    </span><span class="mi">490</span> <span class="k">if</span> <span class="n">transpose</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">491</span>     <span class="c1"># this implementation is a bit faster with smaller shape[1]</span>
-<span class="g g-Whitespace">    </span><span class="mi">492</span>     <span class="n">M</span> <span class="o">=</span> <span class="n">M</span><span class="o">.</span><span class="n">T</span>
-<span class="ne">--&gt; </span><span class="mi">494</span> <span class="n">Q</span> <span class="o">=</span> <span class="n">randomized_range_finder</span><span class="p">(</span>
-<span class="g g-Whitespace">    </span><span class="mi">495</span>     <span class="n">M</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">496</span>     <span class="n">size</span><span class="o">=</span><span class="n">n_random</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">497</span>     <span class="n">n_iter</span><span class="o">=</span><span class="n">n_iter</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">498</span>     <span class="n">power_iteration_normalizer</span><span class="o">=</span><span class="n">power_iteration_normalizer</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">499</span>     <span class="n">random_state</span><span class="o">=</span><span class="n">random_state</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">500</span> <span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">502</span> <span class="c1"># project M to the (k + p) dimensional space using the basis vectors</span>
-<span class="g g-Whitespace">    </span><span class="mi">503</span> <span class="n">B</span> <span class="o">=</span> <span class="n">Q</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">M</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/utils/extmath.py:550,</span> in <span class="ni">randomized_svd</span><span class="nt">(M, n_components, n_oversamples, n_iter, power_iteration_normalizer, transpose, flip_sign, random_state, svd_lapack_driver)</span>
+<span class="g g-Whitespace">    </span><span class="mi">548</span> <span class="k">if</span> <span class="n">flip_sign</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">549</span>     <span class="k">if</span> <span class="ow">not</span> <span class="n">transpose</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">550</span>         <span class="n">U</span><span class="p">,</span> <span class="n">Vt</span> <span class="o">=</span> <span class="n">svd_flip</span><span class="p">(</span><span class="n">U</span><span class="p">,</span> <span class="n">Vt</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">551</span>     <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">552</span>         <span class="c1"># In case of transpose u_based_decision=false</span>
+<span class="g g-Whitespace">    </span><span class="mi">553</span>         <span class="c1"># to actually flip based on u and not v.</span>
+<span class="g g-Whitespace">    </span><span class="mi">554</span>         <span class="n">U</span><span class="p">,</span> <span class="n">Vt</span> <span class="o">=</span> <span class="n">svd_flip</span><span class="p">(</span><span class="n">U</span><span class="p">,</span> <span class="n">Vt</span><span class="p">,</span> <span class="n">u_based_decision</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:311,</span> in <span class="ni">randomized_range_finder</span><span class="nt">(A, size, n_iter, power_iteration_normalizer, random_state)</span>
-<span class="g g-Whitespace">    </span><span class="mi">308</span> <span class="c1"># Perform power iterations with Q to further &#39;imprint&#39; the top</span>
-<span class="g g-Whitespace">    </span><span class="mi">309</span> <span class="c1"># singular vectors of A in Q</span>
-<span class="g g-Whitespace">    </span><span class="mi">310</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_iter</span><span class="p">):</span>
-<span class="ne">--&gt; </span><span class="mi">311</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">312</span>     <span class="n">Q</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">normalizer</span><span class="p">(</span><span class="n">A</span><span class="o">.</span><span class="n">T</span> <span class="o">@</span> <span class="n">Q</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">314</span> <span class="c1"># Sample the range of A using by linear projection of Q</span>
-<span class="g g-Whitespace">    </span><span class="mi">315</span> <span class="c1"># Extract an orthonormal basis</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/sklearn/utils/extmath.py:892,</span> in <span class="ni">svd_flip</span><span class="nt">(u, v, u_based_decision)</span>
+<span class="g g-Whitespace">    </span><span class="mi">888</span> <span class="n">device</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="s2">&quot;device&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">890</span> <span class="k">if</span> <span class="n">u_based_decision</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">891</span>     <span class="c1"># columns of u, rows of v, or equivalently rows of u.T and v</span>
+<span class="ne">--&gt; </span><span class="mi">892</span>     <span class="n">max_abs_u_cols</span> <span class="o">=</span> <span class="n">xp</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">xp</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">T</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">893</span>     <span class="n">shift</span> <span class="o">=</span> <span class="n">xp</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">894</span>     <span class="n">indices</span> <span class="o">=</span> <span class="n">max_abs_u_cols</span> <span class="o">+</span> <span class="n">shift</span> <span class="o">*</span> <span class="n">u</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
 
-<span class="nn">File ~/miniconda3/envs/ml_venv/lib/python3.9/site-packages/scipy/linalg/_decomp_lu.py:344,</span> in <span class="ni">lu</span><span class="nt">(a, permute_l, overwrite_a, check_finite, p_indices)</span>
-<span class="g g-Whitespace">    </span><span class="mi">342</span>     <span class="n">p</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int32</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">343</span>     <span class="n">u</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">k</span><span class="p">,</span> <span class="n">k</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="n">a1</span><span class="o">.</span><span class="n">dtype</span><span class="p">)</span>
-<span class="ne">--&gt; </span><span class="mi">344</span>     <span class="n">lu_dispatcher</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">permute_l</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">345</span>     <span class="n">P</span><span class="p">,</span> <span class="n">L</span><span class="p">,</span> <span class="n">U</span> <span class="o">=</span> <span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">u</span><span class="p">)</span> <span class="k">if</span> <span class="n">m</span> <span class="o">&gt;</span> <span class="n">n</span> <span class="k">else</span> <span class="p">(</span><span class="n">p</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">a1</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">347</span> <span class="k">else</span><span class="p">:</span>  <span class="c1"># Stacked array</span>
-<span class="g g-Whitespace">    </span><span class="mi">348</span> 
-<span class="g g-Whitespace">    </span><span class="mi">349</span>     <span class="c1"># Prepare the contiguous data holders</span>
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:1229,</span> in <span class="ni">argmax</span><span class="nt">(a, axis, out, keepdims)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1142</span><span class="w"> </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="g g-Whitespace">   </span><span class="mi">1143</span><span class="sd"> Returns the indices of the maximum values along an axis.</span>
+<span class="g g-Whitespace">   </span><span class="mi">1144</span><span class="sd"> </span>
+<span class="sd">   (...)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1226</span><span class="sd"> (2, 1, 4)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1227</span><span class="sd"> &quot;&quot;&quot;</span>
+<span class="g g-Whitespace">   </span><span class="mi">1228</span> <span class="n">kwds</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;keepdims&#39;</span><span class="p">:</span> <span class="n">keepdims</span><span class="p">}</span> <span class="k">if</span> <span class="n">keepdims</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">np</span><span class="o">.</span><span class="n">_NoValue</span> <span class="k">else</span> <span class="p">{}</span>
+<span class="ne">-&gt; </span><span class="mi">1229</span> <span class="k">return</span> <span class="n">_wrapfunc</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="s1">&#39;argmax&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="n">axis</span><span class="p">,</span> <span class="n">out</span><span class="o">=</span><span class="n">out</span><span class="p">,</span> <span class="o">**</span><span class="n">kwds</span><span class="p">)</span>
+
+<span class="nn">File ~/miniconda3/envs/ml_project_env/lib/python3.9/site-packages/numpy/core/fromnumeric.py:59,</span> in <span class="ni">_wrapfunc</span><span class="nt">(obj, method, *args, **kwds)</span>
+<span class="g g-Whitespace">     </span><span class="mi">56</span>     <span class="k">return</span> <span class="n">_wrapit</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwds</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">58</span> <span class="k">try</span><span class="p">:</span>
+<span class="ne">---&gt; </span><span class="mi">59</span>     <span class="k">return</span> <span class="n">bound</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwds</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">60</span> <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+<span class="g g-Whitespace">     </span><span class="mi">61</span>     <span class="c1"># A TypeError occurs if the object does have such a method in its</span>
+<span class="g g-Whitespace">     </span><span class="mi">62</span>     <span class="c1"># class, but its signature is not identical to that of NumPy&#39;s. This</span>
+   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">66</span>     <span class="c1"># Call _wrapit from within the except clause to ensure a potential</span>
+<span class="g g-Whitespace">     </span><span class="mi">67</span>     <span class="c1"># exception has a traceback chain.</span>
+<span class="g g-Whitespace">     </span><span class="mi">68</span>     <span class="k">return</span> <span class="n">_wrapit</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwds</span><span class="p">)</span>
 
 <span class="ne">KeyboardInterrupt</span>: 
 </pre></div>
