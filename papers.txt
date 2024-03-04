@@ -1,3 +1,0 @@
-https://arxiv.org/pdf/2206.00664v1.pdf : Hopular: Modern Hopfield Networks for Tabular Data
-https://arxiv.org/pdf/2106.05239v3.pdf : XBNet: An Extremely Boosted Neural Network
-https://arxiv.org/pdf/2102.11498v1.pdf : V2W-BERT: A Framework for Effective Hierarchical Multiclass Classification of Software Vulnerabilities
