@@ -4,5 +4,5 @@
 format: jb-book
 root: EDA.ipynb
 chapters:
-  - file: index.md
+  - file: papers.ipynb
     
